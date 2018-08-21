@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8302F9CC1FFEB3B200F9C355 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302F9CB1FFEB3B200F9C355 /* Contact.swift */; };
+		8302F9CE1FFEC76B00F9C355 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302F9CD1FFEC76B00F9C355 /* AddContactViewController.swift */; };
+		8302F9D01FFF24C500F9C355 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8302F9CF1FFF24C500F9C355 /* StringExtension.swift */; };
 		8308A2851FFDE51C00D61CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308A2841FFDE51C00D61CAD /* AppDelegate.swift */; };
 		8308A2871FFDE51C00D61CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308A2861FFDE51C00D61CAD /* ViewController.swift */; };
-		8308A28A1FFDE51C00D61CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308A2881FFDE51C00D61CAD /* Main.storyboard */; };
+		8308A28A1FFDE51C00D61CAD /* ContactoPro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308A2881FFDE51C00D61CAD /* ContactoPro.storyboard */; };
 		8308A28C1FFDE51C00D61CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8308A28B1FFDE51C00D61CAD /* Assets.xcassets */; };
 		8308A28F1FFDE51C00D61CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308A28D1FFDE51C00D61CAD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8302F9CB1FFEB3B200F9C355 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8302F9CD1FFEC76B00F9C355 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		8302F9CF1FFF24C500F9C355 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		8308A2811FFDE51C00D61CAD /* ContactPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308A2841FFDE51C00D61CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8308A2861FFDE51C00D61CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8308A2891FFDE51C00D61CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8308A2891FFDE51C00D61CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ContactoPro.storyboard; sourceTree = "<group>"; };
 		8308A28B1FFDE51C00D61CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8308A28E1FFDE51C00D61CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8308A2901FFDE51C00D61CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +62,13 @@
 			children = (
 				8308A2841FFDE51C00D61CAD /* AppDelegate.swift */,
 				8308A2861FFDE51C00D61CAD /* ViewController.swift */,
-				8308A2881FFDE51C00D61CAD /* Main.storyboard */,
+				8302F9CD1FFEC76B00F9C355 /* AddContactViewController.swift */,
+				8308A2881FFDE51C00D61CAD /* ContactoPro.storyboard */,
 				8308A28B1FFDE51C00D61CAD /* Assets.xcassets */,
 				8308A28D1FFDE51C00D61CAD /* LaunchScreen.storyboard */,
 				8308A2901FFDE51C00D61CAD /* Info.plist */,
+				8302F9CB1FFEB3B200F9C355 /* Contact.swift */,
+				8302F9CF1FFF24C500F9C355 /* StringExtension.swift */,
 			);
 			path = ContactPro;
 			sourceTree = "<group>";
@@ -125,7 +134,7 @@
 			files = (
 				8308A28F1FFDE51C00D61CAD /* LaunchScreen.storyboard in Resources */,
 				8308A28C1FFDE51C00D61CAD /* Assets.xcassets in Resources */,
-				8308A28A1FFDE51C00D61CAD /* Main.storyboard in Resources */,
+				8308A28A1FFDE51C00D61CAD /* ContactoPro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8302F9CC1FFEB3B200F9C355 /* Contact.swift in Sources */,
+				8302F9CE1FFEC76B00F9C355 /* AddContactViewController.swift in Sources */,
+				8302F9D01FFF24C500F9C355 /* StringExtension.swift in Sources */,
 				8308A2871FFDE51C00D61CAD /* ViewController.swift in Sources */,
 				8308A2851FFDE51C00D61CAD /* AppDelegate.swift in Sources */,
 			);
@@ -144,12 +156,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8308A2881FFDE51C00D61CAD /* Main.storyboard */ = {
+		8308A2881FFDE51C00D61CAD /* ContactoPro.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8308A2891FFDE51C00D61CAD /* Base */,
 			);
-			name = Main.storyboard;
+			name = ContactoPro.storyboard;
 			sourceTree = "<group>";
 		};
 		8308A28D1FFDE51C00D61CAD /* LaunchScreen.storyboard */ = {
@@ -277,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YB79HE4S;
 				INFOPLIST_FILE = ContactPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tech-in.ContactPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39YB79HE4S;
 				INFOPLIST_FILE = ContactPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.tech-in.ContactPro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
